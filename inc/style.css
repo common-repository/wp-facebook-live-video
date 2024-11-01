@@ -1,0 +1,109 @@
+.facebook-live-comment {
+    display: block;
+    font-weight: bold;
+}
+
+.facebook-live-comments li {
+
+list-style-type: none;
+    padding: 15px;  
+    border-radius: 5px; 
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+        margin-bottom: 30px;
+}
+
+.facebook-live-comments li:nth-child(even) {
+
+background-color: #f6f6f6;
+position: relative;
+  
+}
+
+
+.facebook-live-comments li:nth-child(even):after {
+
+	top: 100%;
+	left: 95%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #f6f6f6;
+	border-width: 12px;
+	margin-left: -12px;
+    
+}
+
+
+.facebook-live-comments li:nth-child(odd) {
+
+background-color: #ebebec;
+    position: relative;
+
+}
+
+.facebook-live-comments li:nth-child(odd):after {
+
+	top: 100%;
+	left: 5%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #ebebec;
+	border-width: 12px;
+	margin-left: -12px;
+
+}
+
+.facebook-live-time {
+    font-style: oblique;
+    opacity: .4;
+}
+
+.facebook-live-name {
+    margin-right: 10px;
+}
+
+.facebook-live-image {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    box-shadow: none !important;
+}
+
+.facebook-live-image img {
+    border-radius: 4px;
+}
+
+
+#commentSuccessMessage {
+  color: green;  
+display: none;    
+}
+
+#commentFailureMessage {
+  color: red;  
+display: none;    
+}
+
+#facebook_live_video_comment_submit {
+    margin-top: 20px;
+    margin-bottom: 45px;    
+}
+
+#facebookCommentLoginButton {
+display: none; 
+margin-right: 15px;
+}
+
+

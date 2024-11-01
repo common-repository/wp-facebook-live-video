@@ -1,0 +1,12 @@
+.ui-accordion-content {
+    height: auto !important;
+}
+.form-table {
+    table-layout: fixed;
+}
+#facebook_live_video_settings_form tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+#facebook_live_video_settings_form tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
